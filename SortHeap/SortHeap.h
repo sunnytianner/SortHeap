@@ -2,7 +2,7 @@
 //  SortHeap.h
 //  SortHeap
 //  This class is used for ranking topk items from a large item set
-//  If the type of the item is struct or class, the operator ">" must be override
+//  If the type of the item is struct or class, the operator ">","<","<=",">=" must be override
 //  Created by Eagle on 13-7-11.
 //  Copyright (c) 2013年 Eagle. All rights reserved.
 //
@@ -40,7 +40,7 @@ template <class T>
 SortHeap<T>::SortHeap(int sortHeapSize) {
     MaxSize = sortHeapSize;
     heap = new T[MaxSize+1];
-    heap[0] = 0;
+    //heap[0] = 0;
     CurrentSize = 0;
 }
 

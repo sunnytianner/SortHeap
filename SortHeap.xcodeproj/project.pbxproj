@@ -28,6 +28,7 @@
 		52392F82178E8ABE00C49ACA /* SortHeap */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SortHeap; sourceTree = BUILT_PRODUCTS_DIR; };
 		52392F86178E8ABE00C49ACA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		52392F88178E8ABE00C49ACA /* SortHeap.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = SortHeap.1; sourceTree = "<group>"; };
+		52392F8F178E8ADA00C49ACA /* SortHeap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SortHeap.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +63,7 @@
 			children = (
 				52392F86178E8ABE00C49ACA /* main.cpp */,
 				52392F88178E8ABE00C49ACA /* SortHeap.1 */,
+				52392F8F178E8ADA00C49ACA /* SortHeap.h */,
 			);
 			path = SortHeap;
 			sourceTree = "<group>";
